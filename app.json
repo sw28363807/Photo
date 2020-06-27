@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "QQ小程序",
+    "navigationBarTitleText": "Building相册",
     "navigationBarTextStyle":"black"
   }
 }
