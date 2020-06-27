@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Building相册",
+    "navigationBarTitleText": "Building私密相册",
     "navigationBarTextStyle":"black"
   }
 }
