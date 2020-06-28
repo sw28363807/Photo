@@ -4,11 +4,26 @@ const app = getApp()
 
 Page({
   data: {
+      list: [{title:"题目1", content:"内容1"}, 
+          {title:"题目2", content:"内容2"}, 
+          {title:"题目3", content:"内容3"}, 
+          {title:"题目4", content:"内容4"},
+          {title:"题目1", content:"内容1"}, 
+          {title:"题目2", content:"内容2"}, 
+          {title:"题目3", content:"内容3"}, 
+          {title:"题目4", content:"内容4"},
+          {title:"题目1", content:"内容1"}, 
+          {title:"题目2", content:"内容2"}, 
+          {title:"题目3", content:"内容3"}, 
+          {title:"题目4", content:"内容4"}]
     // motto: 'Hello World',
     // userInfo: {},
     // hasUserInfo: false,
     // canIUse: qq.canIUse('button.open-type.getUserInfo')
-  }
+  },
+  onClickAddPhotoAlbum(e) {
+    console.log(e);
+  },
   //事件处理函数
   // bindViewTap: function () {
   //   qq.navigateTo({
