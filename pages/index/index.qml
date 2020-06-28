@@ -1,7 +1,7 @@
 <view class="container">
   <view class="underInfo">
   <scroll-view class="scrollViewInfo" scroll-y="true">
-    <view class="item-content" wx:for="{{list}}" wx:for-item="item">
+    <view class="itemInfo" wx:for="{{list}}" wx:for-item="item">
       <view class="title">{{item.title}}</view>
       <view class="content">{{item.content}}</view>
     </view>

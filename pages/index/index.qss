@@ -40,3 +40,8 @@
   height: 900rpx;
   background: yellow;
 }
+
+.itemInfo {
+  height: 300rpx;
+  border: 1rpx solid gray;
+}
