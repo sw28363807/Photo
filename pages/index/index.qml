@@ -1,13 +1,14 @@
 <view class="container">
-  <view class="underInfo">
-
+<view class="root">
+</view>
+  <!-- <view class="underInfo" height="{{windowHeight}}">
   <scroll-view class="scrollViewInfo" scroll-y="true">
     <view class="itemInfo" wx:for="{{list}}" wx:for-item="item">
       <image class="imageInfo" src="{{item.imageUrl}}" mode="aspectFill"> </image>
     </view>
   </scroll-view>
   <button  class="button.createPhotoAlbum" bindtap="onClickAddPhotoAlbum" hover-class="other-button-hover"> 添加相册 </button>
-  </view>
+  </view> -->
   <!-- <button  class="underInfo"> 获取头像昵称 </button> -->
   <!-- <button  class="usermotto"> 获取头像昵称 </button> -->
   <!-- <view class="userinfo">

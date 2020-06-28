@@ -16,38 +16,42 @@
 }
 
 */
-.underInfo {
-  width: 640rpx;
-  height: 1000rpx;
+/* .underInfo {
+  width: 98%;
+  height: 100%;
   background: #aaa;
-}
+} */
 
-.button.createPhotoAlbum {
+/* .button.createPhotoAlbum {
   width: 200rpx;
   height: 80rpx;
-  /* background-color: green; */
   margin-top: 10rpx;
   margin-right: 10rpx;
-}
+} */
 
-.other-button-hover {
-  /* background-color: green; */
+/* .other-button-hover {
   opacity: 0.8
-}
+} */
 
-.scrollViewInfo {
+/* .scrollViewInfo {
   width: 640rpx;
   height: 900rpx;
   background: yellow;
-}
+} */
 
-.itemInfo {
+/* .itemInfo {
   height: 300rpx;
   border: 1rpx solid gray;
-}
+} */
 
-.imageInfo {
+/* .imageInfo {
   height: 300rpx;
   width: 300rpx;
+} */
+
+.root {
+  height: 100%;
+  width: 100%;
+  background: #FFCCFF;
 }
 

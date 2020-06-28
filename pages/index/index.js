@@ -4,34 +4,29 @@ const app = getApp()
 
 Page({
   data: {
-      // list: [{title:"题目1", content:"内容1"}, 
-      //     {title:"题目2", content:"内容2"}, 
-      //     {title:"题目3", content:"内容3"}, 
-      //     {title:"题目4", content:"内容4"},
-      //     {title:"题目1", content:"内容1"}, 
-      //     {title:"题目2", content:"内容2"}, 
-      //     {title:"题目3", content:"内容3"}, 
-      //     {title:"题目4", content:"内容4"},
-      //     {title:"题目1", content:"内容1"}, 
-      //     {title:"题目2", content:"内容2"}, 
-      //     {title:"题目3", content:"内容3"}, 
-      //     {title:"题目4", content:"内容4"}]
-    // motto: 'Hello World',
-    // userInfo: {},
-    // hasUserInfo: false,
-    // canIUse: qq.canIUse('button.open-type.getUserInfo')
-    // list:[{imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"},
-    // {imageUrl: "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=806596873,4086472708&fm=173&app=49&f=JPEG?w=439&h=501&s=BA20EA07C3B3E7C6147F587C0300507A"}]
-      list:[]
+    // windowHeight: 0,
+    // screenHeight: 0
   },
-  onClickAddPhotoAlbum(e) {
-    this.data.list.push({imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"});
-    this.setData({
-      list: this.data.list
-    }
-    )
-    console.log(this.data.list);
-  },
+
+  onLoad: function (e) {
+      // this.setData({
+      //       // windowHeight: app.globalData.windowHeight,
+      //       // screenHeight: app.globalData.screenHeight
+      //   })
+  }
+  // onClickAddPhotoAlbum(e) {
+  //   this.data.list.push({imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"});
+  //   this.setData({
+  //     list: this.data.list
+  //   }
+  //   )
+  // },
+  // onLoad: function (e) {
+  //     this.setData({
+  //           windowHeight: app.globalData.windowHeight,
+  //           screenHeight: app.globalData.screenHeight
+  //       })
+  // }
   //事件处理函数
   // bindViewTap: function () {
   //   qq.navigateTo({
