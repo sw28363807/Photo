@@ -24,7 +24,11 @@
 	},
 	"qqappid": "1110556773",
 	"projectname": "Photo",
-	"scripts": {},
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,

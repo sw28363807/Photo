@@ -20,7 +20,8 @@ Page({
     // userInfo: {},
     // hasUserInfo: false,
     // canIUse: qq.canIUse('button.open-type.getUserInfo')
-    list:[]
+    list:[{imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"},
+    {imageUrl: "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=806596873,4086472708&fm=173&app=49&f=JPEG?w=439&h=501&s=BA20EA07C3B3E7C6147F587C0300507A"}]
   },
   onClickAddPhotoAlbum(e) {
     console.log(e);
