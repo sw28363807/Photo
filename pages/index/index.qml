@@ -2,8 +2,9 @@
   <view class="underInfo">
   <scroll-view class="scrollViewInfo" scroll-y="true">
     <view class="itemInfo" wx:for="{{list}}" wx:for-item="item">
-      <view class="title">{{item.title}}</view>
-      <view class="content">{{item.content}}</view>
+      <!-- <view class="title">{{item.title}}</view>
+      <view class="content">{{item.content}}</view> -->
+      <image class="iamgeInfo" src=""> </image>
     </view>
   </scroll-view>
   <button  class="button.createPhotoAlbum" bindtap="onClickAddPhotoAlbum" hover-class="other-button-hover"> 添加相册 </button>

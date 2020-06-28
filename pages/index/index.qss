@@ -45,3 +45,8 @@
   height: 300rpx;
   border: 1rpx solid gray;
 }
+
+.imageInfo {
+  
+}
+
