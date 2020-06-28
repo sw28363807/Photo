@@ -20,11 +20,17 @@ Page({
     // userInfo: {},
     // hasUserInfo: false,
     // canIUse: qq.canIUse('button.open-type.getUserInfo')
-    list:[{imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"},
-    {imageUrl: "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=806596873,4086472708&fm=173&app=49&f=JPEG?w=439&h=501&s=BA20EA07C3B3E7C6147F587C0300507A"}]
+    // list:[{imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"},
+    // {imageUrl: "https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=806596873,4086472708&fm=173&app=49&f=JPEG?w=439&h=501&s=BA20EA07C3B3E7C6147F587C0300507A"}]
+      list:[]
   },
   onClickAddPhotoAlbum(e) {
-    console.log(e);
+    this.data.list.push({imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"});
+    this.setData({
+      list: this.data.list
+    }
+    )
+    console.log(this.data.list);
   },
   //事件处理函数
   // bindViewTap: function () {
