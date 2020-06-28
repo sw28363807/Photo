@@ -55,3 +55,21 @@
   background: #FFCCFF;
 }
 
+.bottomBar {
+  height: 10%;
+  width: 100%;
+  background: #FFCC99;
+}
+
+.topBar {
+  height: 10%;
+  width: 100%;
+  background: #FFCC99;
+}
+
+.content {
+  height: 80%;
+  width: 100%;
+  background: #aaaaaa;
+}
+

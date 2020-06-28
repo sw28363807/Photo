@@ -1,5 +1,16 @@
 <view class="container">
 <view class="root">
+
+
+<view class="bottomBar">
+</view>
+
+<view class="content">
+</view>
+
+<view class="topBar">
+</view>
+
 </view>
   <!-- <view class="underInfo" height="{{windowHeight}}">
   <scroll-view class="scrollViewInfo" scroll-y="true">
