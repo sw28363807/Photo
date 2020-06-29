@@ -11,6 +11,9 @@
 </view>
 
 <view class="bottomBar">
+  <view class="buttonView">
+    <button class="buttonAddPhoto">添加</button>
+  </view>
 </view>
 
 </view>

@@ -59,6 +59,8 @@
   height: 10%;
   width: 100%;
   background: #FFCC99;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .topBar {
@@ -76,6 +78,19 @@
 .scrollViewInfo {
   height: 100%;
   width: 100%;
-  background: #ffffff;
+  background: #bbbbbb;
+}
+
+.buttonAddPhoto {
+    height: 100%;
+    width:  100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.buttonView {
+  height: 100%;
+  width: 20%;
 }
 
