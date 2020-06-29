@@ -1,14 +1,16 @@
 <view class="container">
 <view class="root">
 
-
-<view class="bottomBar">
+<view class="topBar">
 </view>
 
 <view class="content">
+  <scroll-view class="scrollViewInfo">
+    
+  </scroll-view>
 </view>
 
-<view class="topBar">
+<view class="bottomBar">
 </view>
 
 </view>
