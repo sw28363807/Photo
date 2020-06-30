@@ -5,10 +5,10 @@
 </view>
 
 <view class="content">
-  <scroll-view class="scrollViewInfo">
+  <scroll-view class="scrollViewInfo" scroll-y="true">
     <view class="photoAlbumInfo" wx:for="{{photoAlbumList}}" wx:for-item="item">
       <view class="photoAlbumCellInfo">
-        <image></image>
+        <image src="{{item.imageUrls[0]}}"></image>
       </view>
     </view>
   </scroll-view>

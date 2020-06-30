@@ -102,6 +102,7 @@
   height: 600rpx;
   width: 100%;
   background: white;
+  border: solid 1px black;
 }
 
 .photoAlbumCellInfo {

@@ -1,17 +1,28 @@
 //index.js
 //获取应用实例
 const app = getApp()
+var imageInfo = {
+  imageUrls: [
+  "https://raw.githubusercontent.com/sw28363807/sunwen/master/component_beach/che_1-8cc3554803.png",
+  "https://raw.githubusercontent.com/sw28363807/sunwen/master/component_coffee/guitai_2-bd6b4738c6.png",
+  "https://raw.githubusercontent.com/sw28363807/sunwen/master/scene_nautical/building_ship-1b41b62953.png"
+]
+}
 
 Page({
   data: {
-    photoAlbumList: [{}]
+    photoAlbumList: []
   },
 
   onLoad: function (e) {
   },
   
   onAddPhotoAlbum(e) {
-
+    var tempPhotoAlbumList = this.data.photoAlbumList;
+    tempPhotoAlbumList.push(imageInfo);
+    this.setData({
+      photoAlbumList: tempPhotoAlbumList
+    })
   },
   // onLoad: function (e) {
   //     this.setData({
