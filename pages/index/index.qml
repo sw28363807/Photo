@@ -8,7 +8,7 @@
   <scroll-view class="scrollViewInfo" scroll-y="true">
     <view class="photoAlbumInfo" wx:for="{{photoAlbumList}}" wx:for-item="item">
       <view class="photoAlbumCellInfo">
-        <image src="{{item.imageUrls[0]}}"></image>
+        <image src="{{item.imageUrls[0]}}"  data-src="{{item}}" mode="aspectFill" bindtap="onPreviewImage"></image>
       </view>
     </view>
   </scroll-view>

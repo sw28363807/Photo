@@ -24,6 +24,16 @@ Page({
       photoAlbumList: tempPhotoAlbumList
     })
   },
+
+
+	onPreviewImage: function (e) {
+    console.log(e);
+		var current=e.target.dataset.src.imageUrls[0];
+		wx.previewImage({
+		  	current: current,
+		  	urls: e.target.dataset.src.imageUrls
+		})
+	}
   // onLoad: function (e) {
   //     this.setData({
   //           windowHeight: app.globalData.windowHeight,
