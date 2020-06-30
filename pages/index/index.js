@@ -4,23 +4,15 @@ const app = getApp()
 
 Page({
   data: {
-    // windowHeight: 0,
-    // screenHeight: 0
+    photoAlbumList: [{}]
   },
 
   onLoad: function (e) {
-      // this.setData({
-      //       // windowHeight: app.globalData.windowHeight,
-      //       // screenHeight: app.globalData.screenHeight
-      //   })
-  }
-  // onClickAddPhotoAlbum(e) {
-  //   this.data.list.push({imageUrl: "https://img-blog.csdnimg.cn/20190323161318683.png"});
-  //   this.setData({
-  //     list: this.data.list
-  //   }
-  //   )
-  // },
+  },
+  
+  onAddPhotoAlbum(e) {
+
+  },
   // onLoad: function (e) {
   //     this.setData({
   //           windowHeight: app.globalData.windowHeight,

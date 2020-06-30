@@ -6,13 +6,17 @@
 
 <view class="content">
   <scroll-view class="scrollViewInfo">
-    
+    <view class="photoAlbumInfo" wx:for="{{photoAlbumList}}" wx:for-item="item">
+      <view class="photoAlbumCellInfo">
+        <image></image>
+      </view>
+    </view>
   </scroll-view>
 </view>
 
 <view class="bottomBar">
   <view class="buttonView">
-    <button class="buttonAddPhoto">添加</button>
+    <button class="buttonAddPhotoAlbum" bindtap="onAddPhotoAlbum">添加</button>
   </view>
 </view>
 

@@ -72,16 +72,16 @@
 .content {
   height: 80%;
   width: 100%;
-  background: #aaaaaa;
+  background: #E0E0E0;
 }
 
 .scrollViewInfo {
   height: 100%;
   width: 100%;
-  background: #bbbbbb;
+  background: #FFCCFF;
 }
 
-.buttonAddPhoto {
+.buttonAddPhotoAlbum {
     height: 90%;
     width:  90%;
     display:flex;
@@ -96,5 +96,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.photoAlbumInfo {
+  height: 600rpx;
+  width: 100%;
+  background: white;
+}
+
+.photoAlbumCellInfo {
+
 }
 
