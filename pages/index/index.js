@@ -3,9 +3,9 @@
 const app = getApp()
 var imageInfo = {
   imageUrls: [
-  "https://raw.githubusercontent.com/sw28363807/sunwen/master/component_beach/che_1-8cc3554803.png",
-  "https://raw.githubusercontent.com/sw28363807/sunwen/master/component_coffee/guitai_2-bd6b4738c6.png",
-  "https://raw.githubusercontent.com/sw28363807/sunwen/master/scene_nautical/building_ship-1b41b62953.png"
+  "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3982309790,3339526893&fm=26&gp=0.jpg",
+  "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3982309790,3339526893&fm=26&gp=0.jpg",
+  "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3982309790,3339526893&fm=26&gp=0.jpg"
 ]
 }
 
