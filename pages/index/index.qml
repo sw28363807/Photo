@@ -2,13 +2,20 @@
 <view class="root">
 
 <view class="topBar">
+  <view class="buttonView">
+    <button class="buttonAddPhotoAlbum" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权</button>
+    <block wx:else>
+      <!-- <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+    </block>
+  </view>
 </view>
 
 <view class="content">
   <scroll-view class="scrollViewInfo" scroll-y="true">
     <view class="photoAlbumInfo" wx:for="{{photoAlbumList}}" wx:for-item="item">
       <view class="photoAlbumCellInfo">
-        <image src="{{item.imageUrls[0]}}"  data-src="{{item}}" mode="aspectFill" bindtap="onPreviewImage"></image>
+        <image src="{{item.imageUrls[0]}}"  data-src="{{item}}" mode="aspectFit" bindtap="onPreviewImage"></image>
       </view>
     </view>
   </scroll-view>
